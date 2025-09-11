@@ -9,26 +9,6 @@ import Footer from './components/Footer';
 import WorkingOnSection from './components/WorkingOnSection';
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulate initial loading
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2500);
-  }, []);
-
-  if (isLoading) {
-    return (
-      <div className="fixed inset-0 flex items-center justify-center bg-gray-50">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600 mx-auto"></div>
-          <p className="mt-4 text-xl text-gray-600">Loading...</p>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <ThemeProvider>
       <div className="relative">
