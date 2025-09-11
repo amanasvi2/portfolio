@@ -13,7 +13,7 @@ const NavigationBar = () => {
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Resume', href: 'public/Archita Manasvis Resume.pdf', target: '_blank' },
+    { name: 'Resume', href: 'public/Archita_Manasvi_Resume.pdf', target: '_blank' },
     { name: 'Contact', href: '#contact' },
   ];
 

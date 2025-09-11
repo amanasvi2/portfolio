@@ -79,7 +79,6 @@ const AboutSection = () => {
             I’m Archita Manasvi, a Computer Science major at Georgia Tech with a minor in Psychology. 
             My concentrations are Intelligence and People (HCI). I love building AI/ML solutions, leading 
             product-driven projects, and exploring the intersection of technology, people, and design. 
-            Beyond tech, I enjoy dance, fitness, and exploring new places and cuisines.
           </p>
         </div>
 
