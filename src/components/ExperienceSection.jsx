@@ -33,57 +33,70 @@ const ExperienceSection = () => {
   const { currentTheme } = useTheme();
 
   const experiences = [
-    {
-      id: 1,
-      title: "AI/ML and Product Intern",
-      company: "FRAGS AI Startup",
-      location: "Remote",
-      period: "January 2025 - Present",
-      achievements: [
-        "Engineered ML models to support real-time data processing, enhancing product features in the creator economy.",
-        "Partnered with product leadership to define feature roadmap, aligning engineering priorities with competitive trends.",
-        "Benchmarked 5+ competitors and gathered feedback from user cohort to refine product and prioritize launch features."
-      ],
-      techStack: ["Machine Learning", "Product Strategy", "Competitive Analysis"]
-    },
-    {
-      id: 2,
-      title: "Data Science/Machine Learning Intern",
-      company: "ADP",
-      location: "Alpharetta, GA",
-      period: "May 2025 – August 2025",
-      achievements: [
-        "Built a chatbot with a SQL agent to retrieve data from PostgreSQL database, reducing manual lookups in tax workflows.",
-        "Devised a multimodal RAG chatbot with Azure OpenAI, LangChain, and OpenSearch to query embedded PowerPoint content.",
-        "Integrated APIs and cloud services (OpenAI, psycopg2, Azure) to support scalable, production-ready AI pipelines."
-      ],
-      techStack: ["OpenAI", "LangChain", "SQL", "Azure", "OpenSearch"]
-    },
-    {
-      id: 3,
-      title: "Generative AI Engineer Extern",
-      company: "Cognizant",
-      location: "Remote",
-      period: "May 2025 – June 2025",
-      achievements: [
-        "Explored 10+ GenAI case studies and workflows including LLM deployment, risk assessment, and compliance design.",
-        "Participated in simulations of enterprise-grade GPT implementations and evaluated ethical AI considerations."
-      ],
-      techStack: ["Generative AI", "Risk Assessment", "Compliance"]
-    },
-    {
-      id: 4,
-      title: "AI/Marketing Intern",
-      company: "ENGAGEathon",
-      location: "Remote",
-      period: "May 2023 – August 2023",
-      achievements: [
-        "Leveraged AI tools like ChatGPT, Microsoft Designer, Runway ML, and Canva AI to create targeted marketing campaigns.",
-        "Developed 3 responsive websites integrating AI-generated content using HTML, CSS, and JavaScript for MVP demos."
-      ],
-      techStack: ["HTML", "CSS", "JavaScript", "AI Tools", "Marketing"]
-    }
-  ];
+  {
+    id: 1,
+    title: "Software Engineering Intern",
+    company: "Venu AI (Y Combinator)",
+    location: "Remote",
+    period: "October 2025 – February 2026",
+    achievements: [
+      "Implemented AI-powered automation features using Python, React, and Azure to scale event production workflows for 100+ attendees.",
+      "Improved user experience by introducing non-blocking validation in event creation flow, reducing friction and drop-offs.",
+      "Designed and built a data-driven dashboard by exposing backend APIs and developing responsive React components."
+    ],
+    techStack: ["Python", "React", "Azure", "APIs", "Product Development"]
+  },
+  {
+    id: 2,
+    title: "Data Science / Machine Learning Intern",
+    company: "ADP",
+    location: "Alpharetta, GA",
+    period: "May 2025 – August 2025",
+    achievements: [
+      "Built a chatbot with a SQL agent to retrieve data from PostgreSQL, reducing manual lookups in tax workflows.",
+      "Developed a multimodal RAG system using Azure OpenAI, LangChain, and OpenSearch to query 30+ embedded PowerPoint documents.",
+      "Integrated APIs and cloud services (OpenAI, psycopg2, Azure) to support scalable, production-ready AI pipelines."
+    ],
+    techStack: ["OpenAI", "LangChain", "SQL", "Azure", "OpenSearch", "PostgreSQL"]
+  },
+  {
+    id: 3,
+    title: "Product Intern",
+    company: "FRAGS AI Startup",
+    location: "Remote",
+    period: "January 2025 – August 2025",
+    achievements: [
+      "Engineered AI recommendation workflows to improve accuracy of creator insights and reduce latency in content tagging.",
+      "Built analytics dashboards using Python and SQL to track engagement metrics and model performance.",
+      "Conducted competitive analysis across 5+ platforms and user feedback testing to drive data-informed feature prioritization."
+    ],
+    techStack: ["Machine Learning", "Product Strategy", "SQL", "Analytics"]
+  },
+  {
+    id: 4,
+    title: "Generative AI Engineer Extern",
+    company: "Cognizant",
+    location: "Remote",
+    period: "May 2025 – June 2025",
+    achievements: [
+      "Explored enterprise GenAI workflows including LLM deployment, risk assessment, and compliance frameworks.",
+      "Simulated real-world GPT implementations and evaluated ethical considerations in production AI systems."
+    ],
+    techStack: ["Generative AI", "LLMs", "Risk Assessment", "AI Ethics"]
+  },
+  {
+    id: 5,
+    title: "AI / Marketing Intern",
+    company: "ENGAGEathon",
+    location: "Remote",
+    period: "May 2023 – August 2023",
+    achievements: [
+      "Created AI-driven marketing campaigns using tools like ChatGPT, Runway ML, and Canva AI.",
+      "Built 3 responsive websites using HTML, CSS, and JavaScript to support MVP product demos."
+    ],
+    techStack: ["HTML", "CSS", "JavaScript", "AI Tools", "Marketing"]
+  }
+];
 
   const skillIcons = {
     "Neural Networks": <FaBrain className="w-4 h-4 mr-1" />,
