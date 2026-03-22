@@ -9,27 +9,32 @@ const AboutSection = () => {
   const { currentTheme } = useTheme();
   
   const experienceRoles = [
-    {
-      title: "AI/ML and Product Intern",
-      duration: "Jan 2025 – Present",
-      description: "At FRAGS AI Startup, engineered ML models to support real-time data processing, partnered with leadership to define feature roadmap, and benchmarked competitors while incorporating user feedback."
-    },
-    {
-      title: "Data Science / Machine Learning Intern",
-      duration: "May 2025 – Aug 2025",
-      description: "At ADP, built a SQL chatbot for PostgreSQL, devised a multimodal RAG chatbot with Azure OpenAI, LangChain, and OpenSearch, and integrated APIs to enable scalable AI pipelines."
-    },
-    {
-      title: "Generative AI Engineer Extern",
-      duration: "May 2025 – Jun 2025",
-      description: "At Cognizant, explored 10+ GenAI workflows including LLM deployment, risk assessment, and compliance, and participated in enterprise GPT simulations evaluating ethical AI considerations."
-    },
-    {
-      title: "AI/Marketing Intern",
-      duration: "May 2023 – Aug 2023",
-      description: "At ENGAGEathon, leveraged AI tools like ChatGPT, Microsoft Designer, and Runway ML to create campaigns and built 3 responsive websites integrating AI-generated content for MVP demos."
-    }
-  ];
+  {
+    title: "Software Engineering Intern - Venu AI (YC)",
+    duration: "Oct 2025 – Feb 2026",
+    description: "Built AI-powered automation features using Python, React, and Azure to scale event production workflows for 100+ users. Improved user experience by introducing non-blocking validation and developed a data-driven dashboard using backend APIs and React components."
+  },
+  {
+    title: "Data Science / Machine Learning Intern - ADP",
+    duration: "May 2025 – Aug 2025",
+    description: "Developed a SQL-based chatbot for PostgreSQL to reduce manual tax workflow lookups and built a multimodal RAG system using Azure OpenAI, LangChain, and OpenSearch to query 30+ internal documents."
+  },
+  {
+    title: "Product Intern - FRAGS AI",
+    duration: "Jan 2025 – Aug 2025",
+    description: "Designed AI recommendation workflows and analytics dashboards to improve creator insights and track engagement metrics. Conducted competitive analysis across 5+ platforms to guide feature prioritization."
+  },
+  {
+    title: "Generative AI Engineer Extern - Cognizant",
+    duration: "May 2025 – Jun 2025",
+    description: "Explored enterprise GenAI workflows including LLM deployment, risk assessment, and compliance, and evaluated ethical considerations in real-world GPT implementations."
+  },
+  {
+    title: "AI / Marketing Intern - ENGAGEathon",
+    duration: "May 2023 – Aug 2023",
+    description: "Created AI-driven marketing campaigns and built 3 responsive websites using HTML, CSS, and JavaScript for MVP product demos."
+  }
+];
 
   const skills = {
     languages: [
@@ -76,10 +81,10 @@ const AboutSection = () => {
         <div className="text-center">
           <h2 className={`text-3xl font-bold ${currentTheme.text.primary} sm:text-4xl`}>About Me</h2>
           <p className={`mt-4 text-lg ${currentTheme.text.secondary} max-w-3xl mx-auto text-center`}>
-            I’m Archita Manasvi, a Computer Science major at Georgia Tech with a minor in Psychology. 
-            My concentrations are Intelligence and People (HCI). I love building AI/ML solutions, leading 
-            product-driven projects, and exploring the intersection of technology, people, and design. 
-          </p>
+          I’m Archita Manasvi, a Computer Science student at Georgia Tech (Intelligence + HCI) with a passion for building AI-powered products that bridge technology and human behavior. 
+          I’ve worked across startups and enterprise environments, developing machine learning systems, scalable AI pipelines, and user-focused product features. 
+          My work sits at the intersection of AI, product strategy, and design—where I enjoy turning complex systems into intuitive, impactful experiences.
+        </p>
         </div>
 
         {/* Roles */}
